@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from scraper import fetch_case_details
 from db import log_query
+import os
 
 app = Flask(__name__)
 
@@ -26,4 +27,6 @@ def result():
     return render_template('result.html', error="⚠️ Something went wrong. Please try again later.")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)
+
