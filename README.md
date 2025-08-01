@@ -66,3 +66,8 @@ Visit `http://127.0.0.1:5000` in your browser.
 - [x] requirements.txt included
 - [x] README with clear instructions ✅
 
+# Court-Data Fetcher & Mini-Dashboard
+
+[![Deploy Status](https://img.shields.io/badge/Live%20Demo-Render-blue?logo=render&logoColor=white)](https://court-data-fetcher-mini-dashboard-fu2y.onrender.com)
+
+
